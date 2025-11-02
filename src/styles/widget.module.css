@@ -1,0 +1,59 @@
+.primaryButton {
+    padding: 28px 60px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.60vw;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FF5349;
+}
+
+.card {
+    border-radius: 21.33px;
+    padding: 42.67px;
+    box-shadow: -3px -3px 10px 0px #FFFFFF;
+    box-shadow: 5px 5px 10px 0px #0000001A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 37.33px;
+    letter-spacing: -4%;
+    text-align: center;
+}
+.cardContent {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 23px;
+    line-height: 33.33px;
+    text-align: center;
+}
+.roundedButton {
+    border-radius: 133px;
+    box-shadow: 6.67px 6.67px 13.33px 0px #0000001A inset;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.buttonSmallHeading {
+    font-size: 9px;
+    text-align: left;
+    opacity: 0.6;
+}
+.buttonText {
+    text-align: left;
+}

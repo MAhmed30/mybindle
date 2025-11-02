@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import logoImg from '/images/logo.svg'
+import styles from '../styles/navbar.module.css'
+import ImageWrapper from './ImageWrapper'
+import ThemeToggle from './ThemeToggle'
+export default function Navbar() {
 
-const Navbar = () => {
+
   return (
-    <>
-      <nav>
-        <img src=" " alt="" />
-      </nav>
-    </>
+    <nav className={`${ styles.navbar}` }>
+      <div className="container d-flex justify-content-between align-items-center">
+
+        {/* Centered Logo with image + text */}
+        <Link to="/" className="navbar-brand mx-auto d-flex align-items-center justify-content-center gap-3">
+          <ImageWrapper
+              src={logoImg}
+              alt="MyBindle Logo"
+            />
+            <ThemeToggle/>
+        </Link>
+
+        {/* Theme toggle on the right */}
+      </div>
+    </nav>
   )
 }
-
-export default Navbar

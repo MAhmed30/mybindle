@@ -1,0 +1,74 @@
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 20px;
+    margin-top: 66px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: clamp(1rem,  4.94vw, 4rem);
+    line-height: 85.33px;
+    letter-spacing: -5%;
+    text-align: center;
+
+}
+.subTitle {
+    font-weight: 600;
+    font-size: clamp(1rem,  2.03vw, 2rem);
+    line-height: 33.33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.featuresList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.moreFeaturesContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+    justify-content: space-between;
+    padding: 60px;
+}
+.featuresFirstCol {
+    background-color: #FF5349;
+    border-radius: 50%;
+    width: clamp(300px, 50vw, 700px);
+    height: clamp(300px, 50vw, 700px);
+    position: relative;
+}
+
+.featuresImage {
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.featuresImage.left {
+    width: clamp(150px, 25vw, 300px);
+    top: -8%;
+    left: 5%;
+    transform: rotate(-15deg);
+}
+
+.featuresImage.right {
+    width: clamp(200px, 30vw, 420px);
+    bottom: 0;
+    right: 5%;
+    transform: rotate(15deg);
+}
+
+.featuresSecondCol {
+    flex-basis: 41.9%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}

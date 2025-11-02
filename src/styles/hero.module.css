@@ -1,0 +1,30 @@
+.heroContainer {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #FF5349;
+    padding: 0 50px;
+    min-height: 800px;
+}
+.heroFirstCol {
+    flex-basis: 60%;
+}
+.heroTitle h1{
+    font-size: 6.94vw;
+    font-weight: 600;
+}
+.heroSubtitle {
+    font-weight: 600;
+    font-size: 1.60vw;
+}
+.heroSecondCol {
+    flex-basis: 40%;
+    position: relative;
+}
+.heroImage {
+    position: absolute;
+    max-width: 510px;
+    object-fit: contain;
+}
