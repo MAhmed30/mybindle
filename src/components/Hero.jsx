@@ -11,7 +11,7 @@ export default function Hero() {
                 <div className={styles.heroFirstCol}>
                     <div className={styles.heroTitle}>
                         <h1>
-                            Stay Connected Hello
+                            Stay Connected 
                         </h1>
                         <h1>
                             Stay Social
