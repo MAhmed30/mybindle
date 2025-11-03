@@ -1,0 +1,64 @@
+.bannerSecImage {
+    width: 443.03px;
+    height: 932.921142578125px;
+    transform: rotate(0deg);
+    opacity: 1;
+    border-radius: 20px;
+    position: relative;
+    top: 9.50vw;
+}
+
+.bannerSecContainer {
+    border-radius: 50px;
+    padding: 0 50px;
+    background-color: #FF5349;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    margin: 0 55px;
+    max-width: 85%;
+    height: 80vh;
+}
+
+.bannerSecDescription {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 85.33px;
+    line-height: 110%;
+    letter-spacing: -1.33px;
+}
+
+.bannerSecTitle {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    margin-top: 15px;
+}
+
+.bannerSecButton {
+    width: 243.9781951904297px;
+    height: 74.40470123291016px;
+    transform: rotate(0deg);
+    opacity: 1;
+    border-radius: 12.11px;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+
+}
+
+.bannerSecImageParent {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.bannerSecImagePrimary {
+    Width: 2, 007px ;
+    Height:3, 394.7px ;
+    position: relative;
+    top: 14.50vw;
+}

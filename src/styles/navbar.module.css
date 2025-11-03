@@ -2,3 +2,10 @@
     padding: 60px 0;
     background: #FF5349;
 }
+
+@media screen and (max-width: 320px) {
+    .navbarlogo {
+        width: 120px;
+    }
+    
+}

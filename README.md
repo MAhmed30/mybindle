@@ -6,8 +6,8 @@ A modern, fully responsive React application built using Vite, Bootstrap, Lucide
 
 ## Live Demo & Repository
 
-- **Live Preview:** https://your-app-url.com
-- **GitHub Repository:** https://github.com/your-username/project-name
+- **Live Preview:** https://mybindle-five.vercel.app
+- **GitHub Repository:** https://github.com/MAhmed30/mybindle
 
 ---
 

@@ -28,3 +28,18 @@
     max-width: 510px;
     object-fit: contain;
 }
+
+@media screen and (max-width :320px) {
+    .heroContainer {
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .heroImage{
+        position: static;
+        max-width: 50%;
+        margin-top: 20px;
+    }
+    
+    
+    
+}

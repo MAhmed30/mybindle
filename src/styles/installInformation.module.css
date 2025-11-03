@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+.installInformationContainer {
+    text-align: center;
+}
+
+.installInformationdescription {
+    font-weight: 600;
+    font-size: 78.67px;
+    line-height: 85.33px;
+    letter-spacing: -5%;
+    text-align: center;
+
+}
+
+.installInformationtitle {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21.33px;
+    line-height: 33.33px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 20px;
+    margin-top: 66px;
+}
+
+.featuresList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+
+.title {
+    font-weight: 600;
+    font-size: clamp(1rem,  4.94vw, 4rem);
+    line-height: 85.33px;
+    letter-spacing: -5%;
+    text-align: center;
+
+}
+.subTitle {
+    font-weight: 600;
+    font-size: clamp(1rem,  2.03vw, 2rem);
+    line-height: 33.33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.installInformationdownloadnumber {
+    font-weight: 600;
+    font-size: 50.67px;
+    line-height: 53.33px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #FF5349;
+    margin-right: 15px;
+
+}
+
+.installInformationdownline {
+    
+    width: 300px; 
+  border-bottom: 2px solid #8F8F8F;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 1;
+  ;
+}
+
+.installInformationdownlaod {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.installInformationdownloadnumbercolor {
+    font-weight: 600;
+    font-size: 50.67px;
+    line-height: 53.33px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #222222;
+}
+
+.installInformationdownloadnumbercolorthird {
+    font-weight: 600;
+    font-size: 50.67px;
+    line-height: 53.33px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #222222;
+    margin-left: 15px;
+}
+
+.installInformationmainContainerdownlaod {
+display: flex;    
+gap:50px;
+justify-content: center;
+margin-top: 32px;
+
+}

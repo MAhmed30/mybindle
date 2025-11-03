@@ -7,6 +7,13 @@
     margin-top: 66px;
 }
 
+.featuresList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
 .title {
     font-weight: 600;
     font-size: clamp(1rem,  4.94vw, 4rem);

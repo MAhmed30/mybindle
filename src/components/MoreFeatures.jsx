@@ -3,20 +3,23 @@ import styles from '../styles/features.module.css'
 import ImageWrapper from './ImageWrapper'
 import heroImg from '/images/hero/mobile.webp'
 import Card from './Card'
+import InstallInformation from './InstallInformation'
 
 const features = [
     {
         title: "🎥 Short Videos & Reels",
         content: "Share engaging, bite-sized content that keeps everyone entertained."
     },
+
     {
         title: "🔔 Smart Notifications",
         content: "Stay updated on what matters without the noise."
     },
+
     {
         title: "👥 Interest-Based Communities",
         content: "Join groups and discussions that match your passion."
-    }, 
+    }
 ];
 const MoreFeatures = () => {
   return (
@@ -49,7 +52,9 @@ const MoreFeatures = () => {
             }
         </div>
       </div>
+
     </div>
+
   )
 }
 

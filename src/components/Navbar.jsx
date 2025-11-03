@@ -6,22 +6,22 @@ import ImageWrapper from './ImageWrapper'
 import ThemeToggle from './ThemeToggle'
 export default function Navbar() {
 
-
   return (
-    <nav className={`${ styles.navbar}` }>
+    <nav className={`${styles.navbar}`}>
+
       <div className="container d-flex justify-content-between align-items-center">
 
-        {/* Centered Logo with image + text */}
         <Link to="/" className="navbar-brand mx-auto d-flex align-items-center justify-content-center gap-3">
           <ImageWrapper
-              src={logoImg}
-              alt="MyBindle Logo"
-            />
-            <ThemeToggle/>
+          className={styles.navbarlogo}
+            src={logoImg}
+            alt="MyBindle Logo"
+          />
+          <ThemeToggle />
         </Link>
-
-        {/* Theme toggle on the right */}
+        
       </div>
+
     </nav>
   )
 }
